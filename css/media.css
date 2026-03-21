@@ -1,0 +1,105 @@
+@media (max-width: 400px) {
+  .point-reward-section div {
+    width: 100%;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 576px) {
+  .point-reward-section div {
+    width: 45%;
+    aspect-ratio: 1/1;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 768px) {
+  .point-reward-section div {
+    width: 40%;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 992px) {
+  .point-reward-section div {
+    width: 40%;
+    border: 1px solid red;
+  }
+}
+@media (min-width: 1200px) {
+  .point-reward-section div {
+    width: 40%;
+    border: 1px solid red;
+  }
+}
+
+@media (max-width: 385px) {
+  .link_container div {
+    width: 30%;
+  }
+}
+
+/* below 300  */
+@media (max-width: 300px) {
+  .link_container div {
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+  .link_container div a i {
+    display: none;
+  }
+}
+/* below 500 */
+@media (max-width: 500px) {
+  .link_container div {
+    display: none;
+  }
+}
+/* above 500  */
+@media (min-width: 501px) {
+  .link_container div {
+    width: 21%;
+    /* height: 1.5rem; */
+  }
+  .link_container div a,
+  i {
+    font-size: 10px;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* above 576 */
+@media (min-width: 576px) {
+  .link_container div {
+    width: 21%;
+  }
+  .link_container div a,
+  i {
+    font-size: 12px;
+    margin: 0 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* 768px  */
+@media (max-width: 768px) {
+  .link_container div {
+    display: none;
+  }
+}
+/* above 992 */
+@media (min-width: 992px) {
+  .link_container div {
+    width: 22%;
+  }
+  .link_container div a,
+  i {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+}

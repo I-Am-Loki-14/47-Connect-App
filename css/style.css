@@ -25,7 +25,7 @@ body {
 }
 /* nav_section  css start */
 .hero-container {
-  padding: 0.5rem 2rem;
+  padding: 1rem 1rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  /* height: 200px; */
+  height: 200vh;
   /* background: red; */
   /* padding: 1rem; */
 }
@@ -100,22 +100,25 @@ body {
   /* background: red; */
   z-index: 1100;
   position: fixed;
-  top: 4%;
+  top: 0%;
   left: 0;
   right: 0;
 }
 .link_container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  /* background: rebeccapurple; */
 }
 .link_container div {
   margin: 0 0.5rem;
-  width: 100%;
-  /* height: 80px; */
+  width: 30%;
+  /* aspect-ratio: 1/1; */
+  gap: 0.5rem;
   border: 1px solid var(--main-color);
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.2rem;
   text-align: center;
   align-items: center;
@@ -132,15 +135,20 @@ body {
 /* point-reward-section start */
 .point-reward-section {
   width: 100%;
-  min-height: 100vh;
-  background-color: var(--bg-color);
-  /* background-color: #ffd93d; */
-  padding: 1rem 0rem;
+  /* min-height: 100vh; */
+  /* background-color: var(--bg-color); */
+  background-color: #ffd93d;
+  padding: 1rem 0.1rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
+}
+.point-reward-section div {
+  width: 50%;
+  aspect-ratio: 1/1;
+  border: 1px solid red;
 }
 
 /* point-reward-section end  */
