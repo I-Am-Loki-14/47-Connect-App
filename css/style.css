@@ -59,7 +59,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   background-color: var(--bg-color);
 }
 .nav-links div {
@@ -74,31 +74,41 @@ body {
   color: var(--white-color);
   text-decoration: none;
   padding: 0.2rem;
+  font-family: var(--font-family);
 }
 /* nav_section css end  */
-/* promotion carousel secton start  */
 .promotion {
-  margin-top: 1.5rem;
+  margin-top: 7%;
+  left: 0;
+  right: 0;
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   /* background: red; */
   /* padding: 1rem; */
+}
+/* promotion carousel secton start  */
+.carousel-container {
+  padding: 0.5rem;
 }
 /* promotion carousel secton end  */
 
 /* link section start  */
 .link-section {
   width: 100%;
-  padding: 0.5rem 0;
-  height: 1000px;
-  background: #222;
+  padding: 1.5rem;
+  /* height: 1000px; */
+  /* background: red; */
+  z-index: 1100;
+  position: fixed;
+  top: 4%;
+  left: 0;
+  right: 0;
 }
 .link_container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 8%;
 }
 .link_container div {
   margin: 0 0.5rem;
@@ -109,11 +119,28 @@ body {
   border-radius: 0.2rem;
   text-align: center;
   align-items: center;
-  /* cursor: pointer; */
+  cursor: pointer;
+  background-color: var(--bg-color);
 }
 .link_container a {
   color: var(--white-color) !important;
   text-align: center;
   text-decoration: none;
+  font-family: var(--font-family);
 }
 /* link section end  */
+/* point-reward-section start */
+.point-reward-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  /* background-color: #ffd93d; */
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* point-reward-section end  */
