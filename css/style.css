@@ -136,8 +136,8 @@ body {
 .point-reward-section {
   width: 100%;
   /* min-height: 100vh; */
-  /* background-color: var(--bg-color); */
-  background-color: #ffd93d;
+  background-color: var(--bg-color);
+  /* background-color: #ffd93d; */
   padding: 1rem 0.1rem;
   display: flex;
   justify-content: center;
@@ -148,7 +148,7 @@ body {
 .point-reward-section div {
   width: 50%;
   aspect-ratio: 1/1;
-  border: 1px solid red;
+  border: 1px solid black;
 }
 
 /* point-reward-section end  */
