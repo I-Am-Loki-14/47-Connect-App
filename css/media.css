@@ -65,7 +65,27 @@
     font-size: 1.2rem;
   }
 }
-
+/* menubar Toggle  */
+@media (max-width: 649px) {
+  .link_container {
+    background-color: #222;
+    transform: translateX(-40%);
+    transition: ease-in-out 0.3s;
+    top: 10%;
+    left: 0;
+    padding: 0.5rem;
+    position: fixed;
+  }
+  .link_container.show {
+    transform: translateX(0);
+  }
+  #link_container div {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0.3rem 0;
+  }
+}
 /* nav-link media  */
 @media (max-width: 650px) {
   .nav-links div {
