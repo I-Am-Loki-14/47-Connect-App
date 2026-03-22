@@ -50,8 +50,9 @@ body {
 }
 .nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
   /* border: 1px solid var(--white-color); */
   width: 100%;
   position: fixed;
@@ -64,10 +65,9 @@ body {
 }
 .nav-links div {
   border: 1px solid #ff9a00;
-  width: 100%;
+  width: 30%;
   text-align: center;
-  margin: 0 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.2rem;
 }
 .nav-links a {
@@ -146,7 +146,7 @@ body {
   gap: 1rem;
 }
 .point-reward-section div {
-  width: 50%;
+  width: 30%;
   aspect-ratio: 1/1;
   border: 1px solid black;
 }
