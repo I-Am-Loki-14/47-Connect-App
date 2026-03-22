@@ -33,7 +33,7 @@ body {
   position: fixed;
   top: 0%;
   left: 0;
-  z-index: 1000;
+  z-index: 100000;
   /* background: gray; */
   /* border: 1px solid red; */
 }
@@ -121,8 +121,9 @@ body {
   align-items: center;
   /* background: rebeccapurple; */
   position: fixed;
-  top: 2%;
+  top: 3%;
   right: 2%;
+  z-index: 999;
 }
 .link_container a {
   display: flex;
@@ -136,7 +137,7 @@ body {
   align-items: center;
   cursor: pointer !important;
   background-color: var(--bg-color);
-  z-index: 10000;
+  z-index: 10000 !important;
 }
 .link_container a {
   color: var(--white-color) !important;
