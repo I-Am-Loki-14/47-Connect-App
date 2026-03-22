@@ -62,33 +62,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
   }
 }
 
 /* nav-link media  */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .nav-links div {
     display: none;
-  }
-  .menuu-bar {
-    display: block;
-    position: fixed;
-    bottom: 5%;
-    right: 5%;
-  }
-}
-
-@media (max-width: 500px) {
-  .nav-links div {
     border: 1px solid #ff9a00;
     width: 20%;
     text-align: center;
     padding: 0.5rem;
     border-radius: 0.2rem;
   }
-}
-@media (min-width: 600px) {
   .menuu-bar {
-    display: none;
+    display: block;
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+  }
+  .menu-bar {
+    display: block;
+  }
+}
+@media (min-width: 300px) {
+  .point-reward-section div h3 {
+    font-size: 1.1rem !important;
   }
 }

@@ -48,6 +48,15 @@ body {
   font-family: var(--font-family);
   text-align: center;
 }
+.menu-bar i {
+  cursor: pointer !important;
+}
+.menu-bar {
+  display: none;
+}
+.menuu-bar {
+  display: none;
+}
 .nav-links {
   display: flex;
   justify-content: center;
@@ -78,11 +87,11 @@ body {
 }
 /* nav_section css end  */
 .promotion {
-  margin-top: 7%;
+  margin-top: 5%;
   left: 0;
   right: 0;
   width: 100%;
-  height: 200vh;
+  min-height: 100vh;
   /* background: red; */
   /* padding: 1rem; */
 }
@@ -111,6 +120,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   /* background: rebeccapurple; */
+  position: fixed;
+  top: 2%;
 }
 .link_container div {
   margin: 0 0.5rem;
@@ -118,7 +129,7 @@ body {
   /* aspect-ratio: 1/1; */
   gap: 0.5rem;
   border: 1px solid var(--main-color);
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 0.2rem;
   text-align: center;
   align-items: center;
@@ -143,12 +154,25 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .point-reward-section div {
   width: 30%;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
   border: 1px solid black;
 }
-
+.special {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+}
+.special h3,
+p {
+  margin: 1rem 0;
+}
+.special img {
+  object-fit: cover;
+}
 /* point-reward-section end  */
