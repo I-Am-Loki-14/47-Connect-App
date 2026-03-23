@@ -49,6 +49,19 @@ body {
   font-family: var(--font-family);
   text-align: center;
 }
+.hero-container .link_container a {
+  width: 100px;
+  border: 1px solid var(--main-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  margin: 0 0.2rem;
+  background-color: var(--bg-color);
+}
+.hero-container .link_container a,
+i {
+  margin: 0 0.2rem;
+}
 .menu-bar i {
   cursor: pointer !important;
 }
@@ -102,51 +115,6 @@ body {
 }
 /* promotion carousel secton end  */
 
-/* link section start  */
-.link-section {
-  width: 100%;
-  padding: 1.5rem;
-  /* height: 1000px; */
-  /* background: red; */
-  z-index: 1100;
-  position: fixed;
-  top: 0%;
-  left: 0;
-  right: 0;
-}
-.link_container {
-  /* width: 100%; */
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
-  align-items: center;
-  /* background: rebeccapurple; */
-  position: fixed;
-  top: 3%;
-  right: 2%;
-  z-index: 999;
-}
-.link_container a {
-  display: flex;
-  justify-content: center;
-  border: 1px solid var(--main-color);
-  padding: 0.5rem 1rem;
-  margin: 0 0.3rem;
-  gap: 0.5rem;
-  border-radius: 0.2rem;
-  text-align: center;
-  align-items: center;
-  cursor: pointer !important;
-  background-color: var(--bg-color);
-  z-index: 10000 !important;
-}
-.link_container a {
-  color: var(--white-color) !important;
-  text-align: center;
-  text-decoration: none;
-  font-family: var(--font-family);
-}
-/* link section end  */
 /* point-reward-section start */
 .point-reward-section {
   width: 100%;
