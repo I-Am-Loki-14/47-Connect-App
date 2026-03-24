@@ -142,6 +142,7 @@ i {
 .point-reward-section .special {
   /* background: rgb(167, 167, 94); */
   flex: 1 1 300px;
+  border: 1px solid rgb(49, 49, 49);
 }
 .point-reward-section .special h1 {
   font-size: 1.2rem;
@@ -203,11 +204,20 @@ i {
   align-items: center;
   text-align: center;
   color: var(--main-color);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: var(--font-family);
-  text-decoration: underline;
-  text-decoration-thickness: 0.3rem;
-  text-underline-offset: 1rem;
+  font-weight: var(--font-weight);
+  /* text-decoration: underline; */
+  /* text-decoration-thickness: 0.3rem; */
+  /* text-underline-offset: 1rem; */
+}
+.bod-title p {
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  color: var(--para-color);
+  font-size: 1rem;
+  font-family: var(--font-family);
 }
 .bod {
   display: flex;
@@ -259,6 +269,7 @@ i {
   font-family: var(--font-family);
 
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: start;
 }
@@ -274,25 +285,135 @@ i {
   /* background: yellow; */
 }
 .welcome-section .info p {
-  margin: 1.5rem 0;
+  margin: 1.3rem 0;
   padding: 0.5rem;
   word-spacing: 0.2rem;
   color: var(--para-color);
   /* background-color: red; */
 }
 .welcome-section span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   /* background: blue; */
   width: 100%;
-  gap: 0.2rem;
   font-weight: var(--font-weight);
-  padding: 0 1rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  flex: 1 1 200px;
 }
 .welcome-section span p {
   font-size: 1.2rem;
   font-family: var(--font-family);
   color: var(--para-color);
+  /* background-color: greenyellow; */
+}
+.welcome-section span p::first-letter {
+  color: var(--main-color);
+  font-size: 2rem;
 }
 /* welcome 47 group end  */
+/* <!-- Recognition and Awards start */
+.recognition-section h1 {
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 2rem;
+  color: var(--main-color);
+  margin: 1rem 0;
+}
+.award {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  /* background-color: green; */
+  gap: 1.5rem;
+}
+.award span {
+  flex: 0 1 350px;
+  /* background-color: blue; */
+  padding: 1rem;
+}
+.award span img {
+  border-radius: 0.5rem;
+}
+.award span h4 {
+  color: #ebeaea;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
+}
+.award span p {
+  color: var(--para-color);
+  font-family: var(--font-family);
+}
+/* <!-- Recognition and Awards  end*/
+/* our team group  */
+.our-team-group {
+  font-family: var(--font-family);
+  color: var(--para-color);
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+/* Our team start  */
+.our_team {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.our_team div {
+  flex: 1 1 300px;
+  cursor: pointer;
+}
+.our_team div img {
+  border-radius: 0.5rem;
+}
+.our_team div:hover img {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+/* our team end  */
+/* footer  */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer div {
+  flex: 0 1 120px;
+  margin: 0 5rem;
+  /* background-color: yellow; */
+  padding: 2rem;
+}
+.branch_links ul li {
+  color: #fff;
+  font-family: var(--font-family);
+  margin: 0.1rem 0;
+}
+.branch_links ul {
+  width: 250px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.branch_links ul span {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.5rem;
+  color: #fdb813;
+  margin: 0.5rem;
+  width: 100%;
+  text-align: start;
+  /* background-color: #fff; */
+}
