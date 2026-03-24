@@ -18,6 +18,7 @@
   --fw: 500;
   --black-color: #2222;
   --white-color: #ffff;
+  --para-color: rgb(181, 178, 178);
 }
 body {
   background-color: var(--bg-color) !important;
@@ -41,7 +42,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  width: 28px;
+  width: 30px;
   /* background: green; */
 }
 .hero h3 {
@@ -236,3 +237,61 @@ i {
   cursor: pointer;
 }
 /* BOD End  */
+
+/* welcome 47 group start  */
+.welcome-section {
+  width: 100%;
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.welcome-section div {
+  /* background-color: greenyellow; */
+  flex: 1 1 400px;
+  padding: 0.5rem;
+}
+
+.welcome-section .info {
+  font-family: var(--font-family);
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.welcome-section .info h2 {
+  font-family: var(--font-family);
+  font-size: 1.7rem;
+  color: var(--main-color);
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: var(--font-weight);
+  word-spacing: 0.2rem;
+
+  /* background: yellow; */
+}
+.welcome-section .info p {
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  word-spacing: 0.2rem;
+  color: var(--para-color);
+  /* background-color: red; */
+}
+.welcome-section span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: blue; */
+  width: 100%;
+  gap: 1rem;
+  font-size: 1.7rem;
+  font-weight: var(--font-weight);
+}
+.welcome-section span p {
+  font-family: var(--font-family);
+  color: var(--para-color);
+}
+/* welcome 47 group end  */
