@@ -30,11 +30,10 @@
     transform: translateY(-130%);
     transition: ease-in-out 0.3s;
     width: 100%;
-    top: 9%;
+    top: 7%;
     left: 0%;
     right: 100%;
     padding: 0.5rem;
-
     position: fixed;
     z-index: -10;
   }
@@ -84,6 +83,6 @@
   .menu-bar {
     display: block;
     position: fixed;
-    top: 4.1%;
+    top: 2.5%;
   }
 }
