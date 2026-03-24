@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 :root {
-  --bg-color: #222;
+  --bg-color: #091413;
   --main-color: #ff9a00;
   --secondary-color: #ffd93d;
   --p-color: #fff;
@@ -32,8 +32,8 @@ body {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 0%;
-  left: 0;
+  top: 2%;
+  left: 0%;
   z-index: 100000;
   /* background: gray; */
   /* border: 1px solid red; */
@@ -41,6 +41,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  width: 28px;
   /* background: green; */
 }
 .hero h3 {
@@ -105,7 +106,7 @@ i {
   left: 0;
   right: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100px;
   /* background: red; */
   /* padding: 1rem; */
 }
@@ -121,30 +122,117 @@ i {
   /* min-height: 100vh; */
   background-color: var(--bg-color);
   /* background-color: #ffd93d; */
-  padding: 1rem 0.1rem;
+  padding: 1rem 0.3rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
-.point-reward-section div {
-  width: 30%;
-  /* aspect-ratio: 1/1; */
-  border: 1px solid black;
-}
+
 .special {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: yellow; */
+  gap: 0.5rem;
+  padding: 1.2rem;
 }
-.special h3,
-p {
-  margin: 1rem 0;
+.point-reward-section .special {
+  /* background: rgb(167, 167, 94); */
+  flex: 1 1 300px;
+}
+.point-reward-section .special h1 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
 }
 .special img {
   object-fit: cover;
 }
 /* point-reward-section end  */
+/* Dynamic Value  start*/
+.dynamic-value {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* padding: 0.2rem 0; */
+  /* background: red; */
+}
+
+.dynamic-value strong {
+  font-size: 2.2rem;
+  color: #fff;
+  font-family: var(--font-family);
+}
+.dynamic-value strong span {
+  color: var(--main-color);
+  letter-spacing: 0.2rem;
+}
+.dynamic-value div {
+  flex: 1 1 500px;
+  padding: 1rem;
+}
+.dynamic-value div h1 {
+  text-align: start;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  color: rgb(176, 175, 175);
+}
+.dynamic-value div h1::first-letter {
+  color: #ff9a00;
+}
+.dynamic-value div p {
+  text-align: start;
+  width: 100%;
+  font-family: var(--font-family);
+  color: rgb(176, 175, 175);
+}
+/* Dynamic Value  end*/
+/* BOD start  */
+.bod-title {
+  width: 100%;
+}
+.bod-title h1 {
+  width: 100%;
+  padding: 1rem 0;
+  align-items: center;
+  text-align: center;
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 1rem;
+}
+.bod {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+.bod span {
+  flex: 0 1 250px;
+  position: relative;
+}
+.bod span h2 {
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+}
+/* Hover effect  */
+.bod span:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+/* BOD End  */
