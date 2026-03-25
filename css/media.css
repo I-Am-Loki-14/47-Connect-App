@@ -12,6 +12,20 @@
     position: fixed;
     z-index: -10;
   }
+  .nav-links div {
+    display: none;
+    border: 1px solid #ff9a00;
+    width: 20%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+
+  .menu-bar {
+    display: block;
+    position: fixed;
+    top: 2.5%;
+  }
   .link_container a {
     margin: 0.5rem 0 !important;
     display: block;
@@ -40,7 +54,7 @@
 }
 
 /* nav-link media  */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links div {
     display: none;
     border: 1px solid #ff9a00;
@@ -49,16 +63,10 @@
     padding: 0.5rem;
     border-radius: 0.2rem;
   }
-  /* .menuu-bar {
-    display: block;
-    position: fixed;
-    bottom: 5%;
-    right: 4%;
-    z-index: 9997;
-  } */
+
   .menu-bar {
     display: block;
     position: fixed;
     top: 2.5%;
   }
-}
+} */

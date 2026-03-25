@@ -170,9 +170,10 @@ i {
 /* Dynamic Value  start*/
 .dynamic-value {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
   /* padding: 0.2rem 0; */
