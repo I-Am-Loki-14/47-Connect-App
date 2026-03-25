@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 1.5%;
+  top: 0%;
   left: 0%;
   z-index: 100000;
   /* background: gray; */
@@ -41,6 +41,7 @@ body {
 }
 .hero {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 30px;
   /* background: green; */
@@ -56,7 +57,7 @@ body {
   border: 1px solid var(--main-color);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  color: var(--white-color);
+  color: var(--main-color);
   margin: 0 0.2rem;
   background-color: var(--bg-color);
 }
@@ -64,6 +65,11 @@ body {
 i {
   margin: 0 0.2rem;
 }
+.link_container a:hover {
+  background-color: #fcd16e48;
+  transition: 0.3s ease-in-out;
+}
+
 .menu-bar i {
   cursor: pointer !important;
 }
@@ -137,16 +143,24 @@ i {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  padding: 1.2rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+.special:hover img {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
 }
 .point-reward-section .special {
   /* background: rgb(167, 167, 94); */
-  flex: 1 1 300px;
-  border: 1px solid rgb(49, 49, 49);
+  flex: 1 1 350px;
+  border: 1px solid rgba(49, 49, 49, 0.808);
 }
 .point-reward-section .special h1 {
-  font-size: 1.2rem;
-  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  margin: 0.7rem 0;
+}
+.point-reward-section .special p {
+  font-size: 0.9rem;
 }
 .special img {
   object-fit: cover;
@@ -175,7 +189,7 @@ i {
 }
 .dynamic-value div {
   flex: 1 1 500px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .dynamic-value div h1 {
   text-align: start;
@@ -214,7 +228,7 @@ i {
 .bod-title p {
   padding: 1rem;
   align-items: center;
-  text-align: center;
+  text-align: start;
   color: var(--para-color);
   font-size: 1rem;
   font-family: var(--font-family);
@@ -263,6 +277,11 @@ i {
   /* background-color: greenyellow; */
   flex: 1 1 400px;
   padding: 0.5rem;
+}
+.welcome-section .image:hover img {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .welcome-section .info {
@@ -343,7 +362,7 @@ i {
 }
 .award span h4 {
   color: #ebeaea;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   font-size: 1.2rem;
   font-weight: var(--font-weight);
   font-family: var(--font-family);
@@ -352,18 +371,27 @@ i {
   color: var(--para-color);
   font-family: var(--font-family);
 }
+
+.award span:hover img {
+  transform: rotate(4deg);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  /* box-shadow: 10px 15px 15px white; */
+}
 /* <!-- Recognition and Awards  end*/
+
 /* our team group  */
 .our-team-group {
   font-family: var(--font-family);
   color: var(--para-color);
   margin: 1rem;
-  padding: 2rem;
-  font-size: 1.3rem;
+  padding: 1.5rem;
+  font-size: 1rem;
+  /* background: greenyellow; */
 }
 /* Our team start  */
 .our_team {
-  padding: 0 2rem;
+  padding: 0 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,7 +399,7 @@ i {
   flex-wrap: wrap;
 }
 .our_team div {
-  flex: 1 1 300px;
+  flex: 1 1 250px;
   cursor: pointer;
 }
 .our_team div img {
@@ -384,7 +412,29 @@ i {
 /* our team end  */
 
 /* card  */
-
+/* video start */
+.video-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  /* background: greenyellow; */
+  gap: 3rem;
+}
+.video-section span {
+  flex: 0 1 350px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(49, 49, 49, 0.808);
+  /* background: blue; */
+}
+.video-section span video {
+  border-radius: 0.5rem;
+}
+/* video end  */
 /* footer  */
 .footer {
   display: flex;
@@ -394,13 +444,13 @@ i {
   gap: 1rem;
 }
 .footer div {
-  flex: 0 1 120px;
+  flex: 1 1 120px;
   margin: 0 5rem;
   /* background-color: yellow; */
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .branch_links ul li {
-  color: #fff;
+  color: #c8c8c8;
   font-family: var(--font-family);
   margin: 0.1rem 0;
 }
@@ -413,9 +463,28 @@ i {
   font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-size: 1.5rem;
-  color: #fdb813;
+  color: var(--main-color);
   margin: 0.5rem;
   width: 100%;
   text-align: start;
   /* background-color: #fff; */
+}
+.branch_links ul li a {
+  letter-spacing: 0.1rem;
+}
+.branch_links ul li::first-letter {
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-weight: var(--font-weight);
+}
+.copy-right {
+  width: 100%;
+  text-align: center;
+  /* background: gray; */
+  padding: 1rem 0;
+  font-family: var(--font-family);
+  color: rgba(149, 146, 146, 0.808);
+}
+.copy-right sup {
+  font-size: 1.5rem;
 }

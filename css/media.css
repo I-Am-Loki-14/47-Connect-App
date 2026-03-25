@@ -24,7 +24,7 @@
 }
 
 /* menubar Toggle  */
-@media (max-width: 649px) {
+@media (max-width: 1100px) {
   .link_container {
     background-color: #222;
     transform: translateY(-130%);
