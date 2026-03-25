@@ -382,6 +382,9 @@ i {
   transition: 0.3s ease-in-out;
 }
 /* our team end  */
+
+/* card  */
+
 /* footer  */
 .footer {
   display: flex;
@@ -402,7 +405,6 @@ i {
   margin: 0.1rem 0;
 }
 .branch_links ul {
-  width: 250px !important;
   display: flex;
   flex-direction: column;
   justify-content: start;
