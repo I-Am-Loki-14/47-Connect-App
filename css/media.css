@@ -1,30 +1,5 @@
-@media (min-width: 250px) {
-  .point-reward-section div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-@media (min-width: 300px) {
-  .point-reward-section div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-@media (min-width: 500px) {
-  .point-reward-section div {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
 /* menubar Toggle  */
-@media (max-width: 1100px) {
+@media (max-width: 768px) {
   .link_container {
     background-color: #222;
     transform: translateY(-130%);
@@ -63,8 +38,9 @@
     transform: translateY(0%);
   }
 }
+
 /* nav-link media  */
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .nav-links div {
     display: none;
     border: 1px solid #ff9a00;
@@ -73,13 +49,13 @@
     padding: 0.5rem;
     border-radius: 0.2rem;
   }
-  .menuu-bar {
+  /* .menuu-bar {
     display: block;
     position: fixed;
     bottom: 5%;
     right: 4%;
     z-index: 9997;
-  }
+  } */
   .menu-bar {
     display: block;
     position: fixed;
