@@ -16,9 +16,10 @@
   --font-family: "Ubuntu", sans-serif;
   --font-weight: bold;
   --fw: 500;
-  --black-color: #2222;
+  --black-color: #000000;
   --white-color: #ffff;
   --para-color: rgb(181, 178, 178);
+  --border-color: rgba(49, 49, 49, 0.808);
 }
 body {
   background-color: var(--bg-color) !important;
@@ -146,6 +147,38 @@ i {
   gap: 0.5rem;
   padding: 1rem;
   overflow: hidden;
+}
+.view_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* background-color: burlywood; */
+  padding: 2rem 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+}
+.view_menu a {
+  padding: 1.2rem 1rem;
+  flex: 0 1 270px;
+  border: 1px solid var(--main-color);
+  border-radius: 0.2rem;
+  text-align: center;
+  font-weight: var(--font-weight);
+  color: var(--main-color);
+  font-size: 1rem;
+}
+.view_menu a:hover {
+  background-color: #ff9a00;
+  transition: 0.3s;
+  color: var(--black-color);
+}
+.view_menu a:hover i {
+  background-color: #ff9a00;
+  transition: 0.3s;
+  color: var(--black-color) !important;
 }
 .special:hover img {
   transform: scale(1.2);
