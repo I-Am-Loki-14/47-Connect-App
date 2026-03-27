@@ -67,7 +67,7 @@
             border-radius: 0.5rem;
         }
 
-        span {
+        .span1 {
             border-radius: 10%;
             border: 2px solid var(--main-color);
             padding: 0.5rem;
@@ -75,6 +75,17 @@
             z-index: 1;
             bottom: 5%;
             right: 5%;
+
+        }
+
+        .span2 {
+            border-radius: 10%;
+            border: 2px solid var(--main-color);
+            padding: 0.5rem;
+            position: fixed;
+            z-index: 1;
+            bottom: 5%;
+            right: 10%;
 
         }
     </style>
@@ -210,8 +221,14 @@
 
 
     </section>
-    <a href="#thai47"><span>
+    <a href="#thai47"><span class="span1">
             <i class="fa-solid fa-arrow-up-from-bracket"
+                style="color: var(--main-color);font-size: 1rem;font-weight: var(--font-weight);transition: 0.5s;"></i>
+        </span></a>
+
+    <!-- To Home  -->
+    <a href="viewmenu.html"><span class="span2">
+            <i class="fa-solid fa-house-chimney"
                 style="color: var(--main-color);font-size: 1rem;font-weight: var(--font-weight);transition: 0.5s;"></i>
         </span></a>
 
