@@ -22,7 +22,7 @@
   --border-color: rgba(49, 49, 49, 0.808);
 }
 body {
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.2rem;
   background-color: rgb(76, 76, 76);
 }
 strong {
@@ -43,8 +43,10 @@ strong {
   gap: 0.5rem;
   flex-wrap: wrap;
 }
-.branch_menu div {
-  flex: 0 1 150px;
+
+.branch_menu a {
+  color: var(--main-color);
+  flex: 0 1 200px;
   padding: 1rem;
   border: 1px solid #ff9a00;
   border-radius: 0.5rem;
@@ -52,7 +54,9 @@ strong {
   font-weight: var(--font-weight);
   font-family: var(--font-family);
 }
-.branch_menu div a {
-  color: var(--main-color);
+.branch_menu a:hover {
+  background-color: #de8602;
+  transition: 0.3s ease-in-out;
+  color: #000000;
 }
 /* branch_menu end */

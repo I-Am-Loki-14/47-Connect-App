@@ -168,15 +168,16 @@ i {
   text-align: center;
   font-weight: var(--font-weight);
   color: var(--main-color);
+  font-family: var(--font-family);
   font-size: 1rem;
 }
 .view_menu a:hover {
-  background-color: #ff9a00;
+  background-color: #df8703db;
   transition: 0.3s;
   color: var(--black-color);
 }
 .view_menu a:hover i {
-  background-color: #ff9a00;
+  /* background-color: #ff9a00; */
   transition: 0.3s;
   color: var(--black-color) !important;
 }
