@@ -53,20 +53,16 @@
   }
 }
 
-/* nav-link media  */
-/* @media (max-width: 768px) {
-  .nav-links div {
-    display: none;
-    border: 1px solid #ff9a00;
-    width: 20%;
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 0.2rem;
+@media (max-width: 700px) {
+  .branch_menu a {
+    flex: 1 1 120px;
+    font-size: 1rem;
   }
-
-  .menu-bar {
-    display: block;
-    position: fixed;
-    top: 2.5%;
+}
+@media (max-width: 500px) {
+  .view_menu a {
+    flex: 1 1 100px;
+    gap: 0.5rem;
+    font-size: 0.8rem;
   }
-} */
+}

@@ -155,15 +155,15 @@ i {
   flex-wrap: wrap;
   gap: 1rem;
   /* background-color: burlywood; */
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1.2rem;
   border: 1px solid var(--border-color);
   border-radius: 0.2rem;
   margin: 1rem 0;
 }
 .view_menu a {
   padding: 1.2rem 1rem;
-  flex: 0 1 270px;
-  border: 1px solid var(--main-color);
+  flex: 1 1 200px;
+  border: 1px solid #d17e00;
   border-radius: 0.2rem;
   text-align: center;
   font-weight: var(--font-weight);
