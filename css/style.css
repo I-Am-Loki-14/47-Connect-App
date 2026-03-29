@@ -129,7 +129,7 @@ i {
 .point-reward-section {
   width: 100%;
   /* min-height: 100vh; */
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   /* background-color: #ffd93d; */
   padding: 1rem 0.3rem;
   display: flex;
@@ -182,7 +182,7 @@ i {
   color: var(--black-color) !important;
 }
 .special:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
 .point-reward-section .special {
