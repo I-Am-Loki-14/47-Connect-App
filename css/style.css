@@ -62,14 +62,17 @@ body {
   color: var(--main-color);
   margin: 0 0.2rem;
   background-color: var(--bg-color);
+  font-weight: var(--font-weight);
 }
 .hero-container .link_container a,
 i {
   margin: 0 0.2rem;
 }
 .link_container a:hover {
-  background-color: #fcd16e48;
+  background-color: #df8703db;
   transition: 0.3s ease-in-out;
+  color: var(--black-color);
+  /* box-shadow: 5px 5px 5px #df8703db; */
 }
 
 .menu-bar i {
