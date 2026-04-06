@@ -477,6 +477,7 @@ i {
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
 }
+
 .map h3 {
   font-family: var(--font-family);
   font-size: 1.1rem;
@@ -485,7 +486,7 @@ i {
   padding: 0.5rem !important;
   display: flex;
   justify-content: start;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .map_info img {
   width: 32px;
