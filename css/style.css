@@ -380,6 +380,7 @@ i {
   font-size: 2rem;
   color: var(--main-color);
   margin: 1rem 0;
+  font-weight: var(--font-weight);
 }
 .award {
   width: 100%;
@@ -450,7 +451,37 @@ i {
 }
 /* our team end  */
 
-/* card  */
+/* map start  */
+.map_heading {
+  width: 100%;
+  font-family: var(--font-family);
+  color: var(--main-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: var(--font-weight);
+}
+.map {
+  /* width: 100%; */
+  /* background: gray; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.2rem;
+}
+.map div {
+  flex: 0 1 80px;
+  padding: 1rem;
+  /* background-color: red; */
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+}
+.map h3 {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+/* map end  */
 /* video start */
 .video-section {
   width: 100%;
