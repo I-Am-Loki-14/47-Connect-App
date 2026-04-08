@@ -483,10 +483,13 @@ i {
   font-size: 1.1rem;
 }
 .map_info {
+  width: 100%;
+  /* background: green; */
   padding: 0.5rem !important;
   display: flex;
-  justify-content: start;
-  gap: 1rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+  margin: 1rem 0;
 }
 .map_info img {
   width: 32px;
