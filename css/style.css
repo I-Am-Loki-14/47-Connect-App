@@ -128,6 +128,14 @@ i {
 }
 /* promotion carousel secton end  */
 
+/* our outlet section  */
+.our-outlet div h4 {
+  color: var(--main-color);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 1rem 0;
+}
 /* point-reward-section start */
 .point-reward-section {
   width: 100%;
@@ -220,6 +228,48 @@ i {
   color: var(--black-color);
 }
 /* point-reward-section end  */
+
+/* Our service start  */
+.our_service {
+  width: 100%;
+}
+.our_service h1 {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  color: var(--main-color);
+  text-align: center;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+.service-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.service-options div {
+  flex: 1 1 270px;
+  border-radius: 0.3rem;
+  border: 1px solid var(--main-color);
+  text-align: start;
+  padding: 0.8rem;
+}
+.rating_stars {
+  display: flex;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+.service-options div h4 {
+  color: var(--main-color);
+  margin: 1rem 0;
+  font-weight: var(--font-weight);
+}
+.service-options div p {
+  color: var(--para-color);
+  font-family: var(--font-family);
+}
+/* Our service end  */
 /* Dynamic Value  start*/
 .dynamic-value {
   width: 100%;
