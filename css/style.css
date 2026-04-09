@@ -132,6 +132,7 @@ i {
 .our-outlet div h4 {
   color: var(--main-color);
   font-weight: var(--font-weight);
+  font-family: var(--font-family);
   font-size: 1.8rem;
   text-align: center;
   margin: 1rem 0;
