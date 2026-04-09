@@ -348,7 +348,7 @@ i {
   gap: 3rem;
 }
 .bod span {
-  flex: 0 1 250px;
+  flex: 0 1 280px;
   padding: 1rem;
   position: relative;
 }
@@ -576,6 +576,17 @@ i {
 
 /* map end  */
 /* video start */
+.vid {
+  width: 100%;
+}
+.vid h1 {
+  text-align: center;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
 .video-section {
   width: 100%;
   display: flex;
@@ -583,12 +594,12 @@ i {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  gap: 2rem;
+
   /* background: greenyellow; */
   gap: 3rem;
 }
 .video-section span {
-  flex: 0 1 350px;
+  flex: 0 1 380px;
   padding: 0.5rem;
   border-radius: 0.5rem;
   border: 1px solid rgba(49, 49, 49, 0.808);
