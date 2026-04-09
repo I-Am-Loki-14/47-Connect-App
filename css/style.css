@@ -203,6 +203,22 @@ i {
 .special img {
   object-fit: cover;
 }
+/* call Action  */
+.special button {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  margin: 0.7rem 0;
+}
+.special button:hover {
+  background-color: #ff9900db;
+  transition: 0.3s ease;
+  color: var(--black-color);
+}
 /* point-reward-section end  */
 /* Dynamic Value  start*/
 .dynamic-value {
@@ -281,17 +297,25 @@ i {
 }
 .bod span {
   flex: 0 1 250px;
+  padding: 1rem;
   position: relative;
+}
+.bod span img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+  width: 100%;
+  border-color: var(--main-color);
 }
 .bod span h2 {
   color: var(--main-color);
   font-family: var(--font-family);
+  font-weight: var(--font-weight);
   font-size: 1.3rem;
   margin-top: 0.3rem;
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
 }
 /* Hover effect  */
 .bod span:hover img {
