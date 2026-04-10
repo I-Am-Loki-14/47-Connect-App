@@ -11,7 +11,7 @@
   --bg-color: #000000;
   --main-color: #ff9a00;
   --secondary-color: #ffd93d;
-  --p-color: #fff;
+  --p-color: rgb(181, 178, 178);
   --h1-color: #ffff;
   --font-family: "Ubuntu", sans-serif;
   --font-weight: bold;
@@ -128,6 +128,81 @@ i {
 }
 /* promotion carousel secton end  */
 
+/* welcome 47 group start  */
+.about h1 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  color: var(--main-color);
+  /* background: green; */
+}
+.welcome-section {
+  width: 100%;
+  background-color: var(--bg-color);
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.welcome-section div {
+  /* background-color: greenyellow; */
+  flex: 1 1 400px;
+  padding: 0.5rem;
+}
+.welcome-section .image:hover img {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.welcome-section .info {
+  font-family: var(--font-family);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+}
+.welcome-section .info h2 {
+  font-family: var(--font-family);
+  font-size: 1.7rem;
+  color: var(--main-color);
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: var(--font-weight);
+  word-spacing: 0.2rem;
+}
+.welcome-section .info p {
+  margin: 1.3rem 0;
+  padding: 0.5rem;
+  word-spacing: 0.2rem;
+  color: var(--para-color);
+}
+.welcome-section span {
+  width: 100%;
+  font-weight: var(--font-weight);
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  flex: 1 1 200px;
+}
+.welcome-section span p {
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  color: var(--para-color);
+  /* background-color: greenyellow; */
+}
+.welcome-section span p::first-letter {
+  color: var(--main-color);
+  font-size: 2rem;
+}
+/* welcome 47 group end  */
 /* our outlet section  */
 .our-outlet div h4 {
   color: var(--main-color);
@@ -199,7 +274,7 @@ i {
 }
 .point-reward-section .special {
   /* background: rgb(167, 167, 94); */
-  flex: 1 1 350px;
+  flex: 0 1 350px;
   border: 1px solid rgba(49, 49, 49, 0.808);
 }
 .point-reward-section .special h1 {
@@ -247,14 +322,15 @@ i {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .service-options div {
-  flex: 1 1 270px;
+  flex: 0 1 270px;
   border-radius: 0.3rem;
-  border: 1px solid var(--main-color);
+  border: 0px solid var(--main-color);
   text-align: start;
   padding: 0.8rem;
+  box-shadow: 1px 1px 15px 5px rgba(250, 194, 52, 0.5);
 }
 .rating_stars {
   display: flex;
@@ -281,6 +357,7 @@ i {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  margin: 1rem 0;
   /* padding: 0.2rem 0; */
   /* background: red; */
 }
@@ -358,6 +435,7 @@ i {
   width: 100%;
   border-color: var(--main-color);
   position: relative;
+  /* box-shadow: 1px 1px 15px 5px rgba(251, 191, 36, 0.5); */
 }
 .bod span h2 {
   color: var(--main-color);
@@ -380,77 +458,6 @@ i {
 }
 /* BOD End  */
 
-/* welcome 47 group start  */
-.welcome-section {
-  width: 100%;
-  background-color: var(--bg-color);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-.welcome-section div {
-  /* background-color: greenyellow; */
-  flex: 1 1 400px;
-  padding: 0.5rem;
-}
-.welcome-section .image:hover img {
-  transform: scale(1.1);
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.welcome-section .info {
-  font-family: var(--font-family);
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: start;
-}
-.welcome-section .info h2 {
-  font-family: var(--font-family);
-  font-size: 1.7rem;
-  color: var(--main-color);
-  padding: 1rem;
-  text-transform: capitalize;
-  font-weight: var(--font-weight);
-  word-spacing: 0.2rem;
-
-  /* background: yellow; */
-}
-.welcome-section .info p {
-  margin: 1.3rem 0;
-  padding: 0.5rem;
-  word-spacing: 0.2rem;
-  color: var(--para-color);
-  /* background-color: red; */
-}
-.welcome-section span {
-  /* background: blue; */
-  width: 100%;
-  font-weight: var(--font-weight);
-  padding: 1rem 0.5rem;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  flex: 1 1 200px;
-}
-.welcome-section span p {
-  font-size: 1.2rem;
-  font-family: var(--font-family);
-  color: var(--para-color);
-  /* background-color: greenyellow; */
-}
-.welcome-section span p::first-letter {
-  color: var(--main-color);
-  font-size: 2rem;
-}
-/* welcome 47 group end  */
 /* <!-- Recognition and Awards start */
 .recognition-section h1 {
   width: 100%;
@@ -509,6 +516,14 @@ i {
   /* background: greenyellow; */
 }
 /* Our team start  */
+.ourteam_title {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  color: var(--main-color);
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
 .our_team {
   padding: 0 1.2rem;
   display: flex;
@@ -529,14 +544,53 @@ i {
   transition: 0.3s ease-in-out;
 }
 /* our team end  */
+/* Review Section  */
+.review-h1 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  color: var(--main-color);
+  margin: 1.5rem 0;
+}
+.review_card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--main-color);
+  text-align: start;
+}
 
+.review_card div {
+  flex: 0 1 350px;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.review_card h4 {
+  font-family: var(--font-family);
+}
+.review_card p {
+  font-family: var(--font-family);
+  color: var(--para-color);
+  margin: 0.5rem;
+}
+.sub-h {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: 1rem 0;
+}
 /* map start  */
 .map_heading {
   width: 100%;
   font-family: var(--font-family);
   color: var(--main-color);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: var(--font-weight);
 }
 .map {
@@ -609,6 +663,83 @@ i {
   border-radius: 0.5rem;
 }
 /* video end  */
+/* Contact start  */
+.contact {
+  /* background-color: rgb(100, 107, 89); */
+  width: 100%;
+  /* height: 100vh; */
+}
+.contact_title {
+  text-align: center;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-div {
+  /* background: var(--secondary-color); */
+  flex: 0 1 450px;
+  padding: 1.5rem 1.8rem;
+  border: 0px solid var(--border-color);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 15px 5px rgba(251, 191, 36, 0.5);
+}
+.form-div img {
+  margin: 1.5rem 0;
+}
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--border-color);
+  margin: 1rem 0;
+  font-family: var(--font-family);
+}
+form input::placeholder {
+  color: var(--p-color);
+}
+form textarea {
+  font-family: var(--font-family);
+  padding: 0.8rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+}
+form textarea::placeholder {
+  color: var(--p-color);
+}
+form input,
+textarea {
+  background-color: rgb(255, 255, 255);
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--main-color);
+  box-shadow: 1px 1px 15px 5px rgba(251, 191, 36, 0.5);
+}
+.form-div .form_button {
+  width: 100%;
+  border-radius: 0.2rem;
+  background: var(--main-color);
+  color: var(--black-color);
+  padding: 0.8rem;
+  margin: 1rem 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
 /* footer  */
 .footer {
   display: flex;
