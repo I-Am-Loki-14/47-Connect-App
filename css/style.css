@@ -10,7 +10,7 @@
 :root {
   --bg-color: #000000;
   --main-color: #ff9a00;
-  --secondary-color: #ffd93d;
+  --secondary-color: #fba92e;
   --p-color: rgb(181, 178, 178);
   --h1-color: #ffff;
   --font-family: "Ubuntu", sans-serif;
@@ -695,7 +695,7 @@ i {
   box-shadow: 1px 1px 15px 5px rgba(251, 191, 36, 0.5);
 }
 .form-div img {
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
 }
 form input {
   width: 100%;
@@ -732,7 +732,6 @@ textarea:focus {
 .form-div .form_button {
   width: 100%;
   border-radius: 0.2rem;
-  background: var(--main-color);
   color: var(--black-color);
   padding: 0.8rem;
   margin: 1rem 0;
@@ -740,6 +739,12 @@ textarea:focus {
   font-weight: var(--font-weight);
   cursor: pointer;
   font-size: 1.2rem;
+  background-color: var(--secondary-color);
+}
+.form_button:hover {
+  background: var(--main-color);
+  transition: all ease 0.3s;
+  box-shadow: 1px 1px 15px 5px rgba(251, 191, 36, 0.5);
 }
 /* footer  */
 .footer {
