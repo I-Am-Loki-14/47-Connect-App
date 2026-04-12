@@ -127,7 +127,32 @@ i {
   padding: 0.5rem;
 }
 /* promotion carousel secton end  */
+/* gallery start  */
+.gallery-title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  color: var(--main-color);
+}
+.gallery {
+  padding: 1rem;
+  width: 100%;
+  margin: 2rem 0;
+  /* background: greenyellow; */
+}
 
+.gallery img {
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.image-container:hover img {
+  transform: translateY(-10%);
+  transition: all 0.3s;
+}
+/* gallery end  */
 /* welcome 47 group start  */
 .about h1 {
   margin: 2rem 0;
@@ -211,7 +236,8 @@ i {
   font-family: var(--font-family);
   font-size: 1.8rem;
   text-align: center;
-  margin: 1rem 0;
+  margin-top: 2rem 0;
+  margin-bottom: 1.5rem;
 }
 /* point-reward-section start */
 .point-reward-section {
@@ -753,6 +779,7 @@ textarea:focus {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  margin: 2rem;
 }
 .footer div {
   flex: 1 1 120px;
