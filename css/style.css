@@ -867,6 +867,13 @@ textarea:focus {
 .branch_links ul li a {
   letter-spacing: 0.1rem;
 }
+.branch_links ul li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-color: var(--main-color);
+  text-shadow: 1px 1px 15px var(--secondary-color);
+}
 .branch_links ul li::first-letter {
   color: var(--main-color);
   font-size: 1.2rem;
