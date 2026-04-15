@@ -632,7 +632,7 @@ i {
 }
 
 .review_card div {
-  flex: 0 1 350px;
+  flex: 0 1 360px;
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
   padding: 0.5rem;
