@@ -128,6 +128,13 @@ i {
 .carousel-container {
   padding: 0.5rem;
 }
+
+[data-carousel-slide-to] {
+  background-color: gray;
+}
+[data-carousel-slide-to][aria-current="true"] {
+  background-color: #fba92e;
+}
 /* promotion carousel secton end  */
 /* gallery start  */
 .gallery-title {
