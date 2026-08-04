@@ -722,7 +722,7 @@ i {
 }
 .map {
   width: 100%;
-  background: gray;
+  /* background: gray; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
