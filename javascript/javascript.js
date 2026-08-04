@@ -17,3 +17,19 @@ if (menubar && linkContainer) {
         console.log("Menu toggled!"); 
     };
 }
+
+// const hideinfo = document.getElementById("hideinfo");
+// const btn = document.getElementById("btn");
+// const btns = document.querySelectorAll(".btn");
+// console.log(btns);
+
+
+// function seemore(btns) {
+//     const target = btns.previousElementSibling.querySelector(".hideinfo")
+//     if (hideinfo.classList.toggle("hideinfo")) {
+//         btn.innerText = "See more"
+//     } else {
+//         btn.innerText = "See less"
+        
+//     }
+// }
